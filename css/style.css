@@ -1,7 +1,7 @@
 :root{
   --font-dark:#0D0D0D;--font-light:#F2F2F2;
   --font-brand:#03387e;
-  --color-offGray:#EFEFEF;
+  --color-offGray:#EFEFEF;--color-map:#FFBBBB;
   --main-radius:5px;
   --main-padding:10px;
 }

@@ -1,0 +1,31 @@
+.modal { grid-area: 2 / 1 / 10 / 17; 
+background-color: #11111191;}
+
+.div2 { grid-area: 3 / 5 / 9 / 12;
+background-color: #FFFFFF; 
+border-radius: 5px;
+display: grid;place-items: center;
+font-size: 14px;
+text-align: center;
+padding: 10px;
+}
+.cancel{
+  padding:10px; width: 30%;
+  background-color: #111111;
+  color: #ffffff;
+  border-radius: 5px;
+}
+.pass{
+  padding:10px; width: 30%;
+  background-color: #FFFFFF;
+  color: #222222;
+  border-radius: 5px;
+  border: 1px solid #222222;
+}
+.del{
+  padding:10px; width: 30%;
+  background-color: #FFFFFF;
+  color: #222222;
+  border-radius: 5px;
+  border: 1px solid #222222;
+}

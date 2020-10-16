@@ -19,8 +19,8 @@
   <div class="content-Grid">
     <header> </header>
     <div class="headTitle">INCLUNAV</div> 
-    <div class="help btn"> Help</div>
-    <div class="profile btn">Profile</div>
+    <div class="help btn" onclick="funHelp()"> Help</div>
+<div class="profile btn" onclick="funProfile()">Profile</div>
     <div class="modal"></div>
     <div class="div2">
       WARNING !<br/><br/>
@@ -29,7 +29,7 @@
         This will remove all buildings and levels information under this venue. <br/>
         This is a non-reversible action.<br/><br/>
         
-        If you do not want to delete this building, <br/>
+        If you do not want to delete this venue, <br/>
         click CANCEL.
         <br/>
         <div class="cancel btn" onclick="window.open('dashboard.html')"> Cancel</div>
@@ -39,6 +39,17 @@
           <div class="pass btn" onclick="window.open('dashboard.html')">Delete</div>
         
     </div>
+    <div id="help" class="divHelp noDisplay">
+      <p>Tutorials</p>
+      <p>Manual</p>
+      <p>Contact Us</p>
+      <p>Feedback</p>
+  </div>
+  <div id="profile" class="divProfile noDisplay">
+      <p>Edit Profile</p>
+      <p>Change Password</p>
+      <p>Log Out</p>
+  </div>
   </div>
 </body>
 </html>

@@ -1,14 +1,15 @@
-$(document).ready(function($) {
 
-    console.clear();
+
+
+ function funHelp(){
+    document.getElementById("help").classList.toggle("noDisplay");
+    document.getElementById("profile").classList.add("noDisplay");
+    }
   
-  ScrollOut({
-    cssProps: {
-      visibleY: true,
-      viewportY: true,
-      scrollPercentY: true
-    },
-    threshold:0.2
-  });
-    
-  });  
+function funProfile(){
+      document.getElementById("help").classList.add("noDisplay");
+      document.getElementById("profile").classList.toggle("noDisplay");
+    }
+  
+
+

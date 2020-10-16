@@ -19,8 +19,8 @@
   <div class="content-Grid">
     <header> </header>
     <div class="headTitle">INCLUNAV</div> 
-    <div class="help btn"> Help</div>
-    <div class="profile btn">Profile</div>
+    <div class="help btn" onclick="funHelp()"> Help</div>
+<div class="profile btn" onclick="funProfile()">Profile</div>
     <div class="map"></div>
     <div class="mapControl"></div>
     <div class="inDetails"></div>
@@ -41,6 +41,17 @@
 <div class="save btn" onclick="window.open('VenueDash.html')">Save</div>
 <div class="cancel btn" onclick="window.open('dashboard.html')">Cancel</div>
     </div>
+    <div id="help" class="divHelp noDisplay">
+      <p>Tutorials</p>
+      <p>Manual</p>
+      <p>Contact Us</p>
+      <p>Feedback</p>
+  </div>
+  <div id="profile" class="divProfile noDisplay">
+      <p>Edit Profile</p>
+      <p>Change Password</p>
+      <p>Log Out</p>
+  </div>
   </div>
 </body>
 </html>

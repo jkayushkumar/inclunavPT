@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans:300,400,500,600" />
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/dashboard.css">
+  <link rel="stylesheet" href="css/BuildingDash.css">
   <script type="text/javascript" src="js/package/jquery-3.5.1.js"></script>
   <script type="text/javascript" src="js/package/scroll-out.min.js"></script>
   <script type="text/javascript" src="js/index.js"></script>
@@ -19,52 +20,63 @@
   <div class="content-Grid">
     <header> </header>
     <div class="headTitle">INCLUNAV</div> 
-    <div class="help btn"> Help</div>
-    <div class="profile btn">Profile</div>
-    <div class="addVenue btn" onclick="window.open('AddBuilding.html')"> Add new Building</div>
+    <div class="help btn" onclick="funHelp()"> Help</div>
+    <div class="profile btn" onclick="funProfile()">Profile</div>
+    <div class="addVenue btn" onclick="window.open('AddLevel.html')"> Add new Level</div>
     <div class="DP">First name Last name</div>
     <div class="nav">
-      Sample Venue 01
+      <p>Sample Venue 01</p>
+      <p>Sample Building 01</p>
     </div>
     <div class="div6">
-     <p>Sample Building 1<br/><br/>
-     Levels : 08
+     <p>Sample Level 1<br/><br/>
+      Level No : 0     
        <br/>
        Annotated Area : 100 sqm
      </p>
-     <p></p>
-     <div class="edit btn" onclick="window.open('AddBuilding.html')"> Edit </div>
-     <div class="delete btn">Delete</div>
+       <div class="public"><input type="checkbox"> Public Access</div><br/>
+     <div class="edit btn" onclick="window.open('AddLevel.html')"> Edit </div>
+     <div class="delete btn" onclick="window.open('DeleteLevel.html')">Delete</div>
     </div>
     <div class="div7">
-      <p>Sample Building 2<br/><br/>
-        Levels : 04
-          <br/>
-          Annotated Area : 50 sqm
-        </p>
-        <p></p>
-        <div class="edit btn"> Edit </div>
-        <div class="delete btn">Delete</div>
+      <p>Sample Level 2<br/><br/>
+        Level No : 1     
+         <br/>
+         Annotated Area : 50 sqm
+       </p>
+         <div class="public"><input type="checkbox"> Public Access</div><br/>
+       <div class="edit btn" > Edit </div>
+       <div class="delete btn" >Delete</div>
     </div>
     <div class="div8">
-      <p>Sample Building 3<br/><br/>
-        Levels : 010
-          <br/>
-          Annotated Area : 1500 sqm
-        </p>
-        <p></p>
-        <div class="edit btn"> Edit </div>
-        <div class="delete btn">Delete</div>
+      <p>Sample Level 3<br/><br/>
+        Level No : 3    
+         <br/>
+         Annotated Area : 200 sqm
+       </p>
+         <div class="public"><input type="checkbox"> Public Access</div><br/>
+       <div class="edit btn"> Edit </div>
+       <div class="delete btn" >Delete</div>
     </div>
-    <div class="div9"> <p>Sample Building 4<br/><br/>
-      Levels : 03
-        <br/>
-        Annotated Area : 300 sqm
-      </p>
-      <p></p>
-      <div class="edit btn"> Edit </div>
-      <div class="delete btn">Delete</div></div>
-    
+    <div class="div9"> <p>Sample Level 4<br/><br/>
+      Level No : 4    
+       <br/>
+       Annotated Area : 100 sqm
+     </p>
+       <div class="public"><input type="checkbox"> Public Access</div><br/>
+     <div class="edit btn" > Edit </div>
+     <div class="delete btn" >Delete</div>
+      <div id="help" class="divHelp noDisplay">
+        <p>Tutorials</p>
+        <p>Manual</p>
+        <p>Contact Us</p>
+        <p>Feedback</p>
+    </div>
+    <div id="profile" class="divProfile noDisplay">
+        <p>Edit Profile</p>
+        <p>Change Password</p>
+        <p>Log Out</p>
+    </div>
   </div>
 </body>
 </html>

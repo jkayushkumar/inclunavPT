@@ -14,7 +14,7 @@ body {
 }
 p{
   text-align: justify;
-  font-size: 16px;
+  font-size: 14px;
 }
 .btn{
   cursor: pointer;
@@ -107,6 +107,18 @@ header{
   height: 50%;top: 50%;
   text-align: center; 
 }
+.divHelp { grid-area: 2 / 14 / 6 / 16;
+background-color: Var(--font-dark); 
+color: var(--font-light);
+display: grid;place-items: center;
+z-index: 2;
+}
+.divProfile { grid-area: 2 / 14 / 5 / 16; 
+  background-color: Var(--font-dark); 
+  color: var(--font-light);
+  display: grid;place-items: center;
+  z-index: 2;}
+.noDisplay{display: none;}
 @media screen and (min-width:900px) {
   .scrollHalf__grupo { min-height: 100vh;}
   .scrollHalf__grupo__imagen { position: fixed; top: 0; left: 0; width: 50vw;}

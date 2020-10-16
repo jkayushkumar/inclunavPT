@@ -1,0 +1,6 @@
+.bname { grid-area: 3 / 13 / 4 / 16; text-align: center;}
+.orientation { grid-area: 4 / 13 / 5 / 16; text-align: center;}
+.refPoints { grid-area: 5 / 13 / 6 / 16;text-align: center; }
+.Type { grid-area: 6 / 13 / 7 / 16;text-align: center; }
+.organ { grid-area: 7 / 13 / 8 / 16; text-align: center;}
+.div6 { grid-area: 8 / 13 / 9 / 16; }

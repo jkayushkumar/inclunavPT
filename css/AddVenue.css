@@ -5,6 +5,7 @@
 .map { 
   grid-area: 2 / 1 / 10 / 12; 
   background-color: var(--color-map);
+  display: grid;place-items: center;
 }
 .mapControl { 
   grid-area: 2 / 2 / 3 / 11; 

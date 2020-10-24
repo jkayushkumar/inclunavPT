@@ -1,3 +1,8 @@
+function navigateTo(url)
+{
+  location.replace(url);
+}
+
 
 
 

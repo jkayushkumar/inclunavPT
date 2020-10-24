@@ -1,0 +1,28 @@
+.logomain { 
+  grid-area: 8 / 7 / 12 / 11;
+  padding: var(--main-padding);
+}
+.logoImg{
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  width: 90%;
+}
+.logotextmain { 
+  grid-area: 12 / 7 / 13 / 11;
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--font-brand);
+}
+.successMsg { 
+  grid-area: 7 / 18 / 11 / 25;
+  padding: var(--main-padding); 
+  font-size: 16px;
+}
+.signinBack { 
+  grid-area: 12 / 19 / 13 / 24;
+}
+#signBack{
+  width: 80%;height: 100%;
+}

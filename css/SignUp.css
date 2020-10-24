@@ -9,16 +9,18 @@
   transform: translate(-50%,-50%);
   width: 90%;
 }
-.logotextmain { 
+.logotextmain {
   grid-area: 12 / 7 / 13 / 11;
   font-size: 20px;
   font-weight: 600;
   color: var(--font-brand);
 }
 .warn { 
-  grid-area: 5 / 17 / 6 / 26; 
+  grid-area: 4 / 17 / 6 / 26; 
   color: var( --font-warning);
   padding: var(--main-padding);
+  padding-top: 30px;
+  text-align: justify;
 }
 .firstname { 
   grid-area: 6 / 17 / 7 / 21;
@@ -50,6 +52,7 @@
 .signUpMsg { 
   grid-area: 11 / 17 / 14 / 26; 
   padding: var(--main-padding);
+  text-align: justify;
 }
 .req1 { grid-area: 6 / 21 / 7 / 22; }
 .req2 { grid-area: 8 / 21 / 9 / 22; }

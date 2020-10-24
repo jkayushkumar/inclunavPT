@@ -32,6 +32,17 @@ input,textarea,button,select,a,div,img {-webkit-tap-highlight-color: rgba(0,0,0,
 p{
   text-align: justify;
 }
+.content-Grid {
+  position: absolute;
+  top: 0;
+  height: 100vh;min-height: 700px;
+  width: 100vw;min-width: 1279px;
+  display: grid;  
+  grid-template-columns: repeat(30, 1fr);
+  grid-template-rows: repeat(17, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
 .btn{
   cursor: pointer;
   background-color: var(--background);
@@ -62,22 +73,29 @@ p{
 .text-center{
   text-align: center;
 }
-.content-Grid {
-  display: grid;
-  height: 100vh;min-height: 700px;
-  width: 100vw;min-width: 1279px;
-  grid-template-columns: repeat(30, 1fr);
-  grid-template-rows: repeat(17, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-}
 .header { 
-  grid-area: 1 / 1 / 2 / 31; 
-  background-color: var(--default-dark);
+  position: absolute;
+  height: 40px;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 3px 3px var(--shadow-dark), 0 -5px 5px var(--shadow-light);
+  /* grid-area: 1 / 1 / 2 / 31;  */  
+  /* background-color: var(--default-dark); */
 }
 .incluhead { 
-  grid-area: 1 / 2 / 2 / 4; 
-  color: var(--font-light);
+  z-index: 1;
+  position: relative;
+  float: left;
+  margin-left: 100px;
+  height: 100%;
+  /* grid-area: 1 / 2 / 2 / 4;  */
+  color: var(--font-brand);
+}
+.incluheadlogo{
+  position: absolute;
+  left: 64px;
+  height: 25px;
+  top: 7.5px;
 }
 .brdr{
   border: 1px solid black;

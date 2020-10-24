@@ -1,6 +1,12 @@
 .logomain { 
   grid-area: 8 / 7 / 12 / 11;
-  padding: var(--main-padding);
+  /* position: absolute;
+  left: 64px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: aqua; 
+  height: 100px;*/
+  padding: var(--main-padding); 
 }
 .logoImg{
   position: relative;

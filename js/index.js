@@ -1,6 +1,7 @@
 function navigateTo(url)
 {
-  location.replace(url);
+  newLocation ="./"+url;
+  location.replace(newLocation);
 }
 
 

@@ -193,7 +193,7 @@ p{
   color: var(--font-warning);
   padding-left: 5px;
 }
-#modalDiv{
+.modalDiv{
   z-index: 1;
   position: absolute;
   top: 0;
@@ -230,3 +230,109 @@ p{
   place-items: center;
 }
 .warning{ font-size: 22px;}
+/* ------------------ */
+#userProfileMain { 
+  grid-area: 3 / 9 / 17 / 23; 
+  background-color: var(--background);
+  border-radius: 10px;
+  z-index: 2;
+}
+#profileHead { 
+  grid-area: 3 / 11 / 5 / 21; 
+  display: grid;
+  place-items: center;
+  text-align: center;
+  font-size: 22px;
+  z-index: 2;
+}
+#profileWarn { 
+  grid-area: 5 / 11 / 6 / 21; 
+  color: var(--font-warning);
+  display: grid;
+  place-content: center;
+  z-index: 2;
+}
+#profileFirst { 
+  grid-area: 7 / 11 / 8 / 15; 
+  z-index: 2;
+}
+#profileLast { 
+  grid-area: 7 / 17 / 8 / 21; 
+  z-index: 2;
+}
+#profileMail { 
+  grid-area: 9 / 11 / 10 / 15; 
+  z-index: 2;
+ }
+#profileOrg { 
+  grid-area: 9 / 17 / 10 / 21; 
+  z-index: 2;
+ }
+#profilePass { 
+  grid-area: 11 / 11 / 12 / 15; 
+  z-index: 2; 
+}
+#profilePass2 { 
+  grid-area: 11 / 17 / 12 / 21; 
+  z-index: 2; 
+}
+#profileMsgDiv { 
+  grid-area: 12 / 11 / 15 / 21; 
+  z-index: 2; 
+  padding: 20px;
+}
+#profileSave { 
+  grid-area: 15 / 11 / 16 / 15; 
+  z-index: 2; 
+  display: grid;
+  place-content: center;
+}
+#profileCancel { 
+  grid-area: 15 / 17 / 16 / 21; 
+  z-index: 2;  
+  display: grid;
+  place-content: center;
+}
+
+#nameOneHead { 
+  grid-area: 6 / 11 / 7 / 15; 
+  z-index: 2;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+#nameLastHead { 
+  grid-area: 6 / 17 / 7 / 21; 
+  z-index: 2;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+#mailProf { 
+  grid-area: 8 / 11 / 9 / 15; 
+  z-index: 2;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+#orgProf { 
+  grid-area: 8 / 17 / 9 / 21; 
+  z-index: 2;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+#passOneProf { 
+  grid-area: 10 / 11 / 11 / 15; 
+  z-index: 2;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+#passTwoProf { 
+  grid-area: 10 / 17 / 11 / 21; 
+  z-index: 2;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+
+#req20 { grid-area: 7 / 15 / 8 / 16; z-index: 2; }
+#req21 { grid-area: 9 / 15 / 10 / 16; z-index: 2;}
+#req22 { grid-area: 11 / 15 / 12 / 16; z-index: 2;}
+#req23 { grid-area: 11 / 21 / 12 / 22; z-index: 2;}
+

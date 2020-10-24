@@ -19,7 +19,7 @@
   <div class="content-Grid">
     <div class="header">      
       <img class="incluheadlogo" src="../images/inclunav.png"/>
-      <div class="incluhead all-center">INCLUNAV</div>
+      <div class="incluhead all-center">DASHBOARD : VENUE</div>
     </div> 
     <div class="help all-center" onclick="funHelp()" >Help</div> 
     <div class="profile all-center" onclick="funProfile()" >First Name</div>
@@ -44,7 +44,7 @@
       </div>
       <div class="cardBtn btn all-center">Edit</div>     
       <div class="cardBtn btn all-center">Validate</div>
-      <div class="cardBtn btn all-center">Delete</div>
+      <div class="cardBtn btn all-center" onclick="showModal()">Delete</div>
     </div>
     
     <div class="card card2">
@@ -84,6 +84,18 @@
       <div class="cardBtn btn all-center">Edit</div>     
       <div class="cardBtn btn all-center">Validate</div>
       <div class="cardBtn btn all-center">Delete</div>
+    </div>
+    <div id="modalDiv" class="noDisplay"></div>
+    <div id="modalBtnDiv" class="modalMsg noDisplay">
+      <div class="modalBtn btn" onclick="hideModal()">Cancel</div>
+      <div class="modalBtn txt">*********</div>
+      <div class="modalBtn btn" onclick="hideModal()">Delete</div>
+    </div>
+    <div id="modalWarnDiv" class="modalMsgDiv noDisplay">
+      <span class="warning">WARNING!</span>
+      <p class="centerPara">You are about to delete the venue : Venue Name 1</p>
+      <p class="centerPara">This will remove all buildings and levels under this venue. This is a non-reversible action.</p>
+      <p class="centerPara">If you do not want to delete this venue, click CANCEL. If you still want to delete this venue, enter your password and click DELETE.</p>
     </div>
   </div>
 </body>

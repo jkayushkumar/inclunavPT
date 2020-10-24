@@ -34,6 +34,9 @@ input,textarea,button,select,a,div,img {
 p{
   text-align: justify;
 }
+.centerPara{
+  text-align: center;
+}
 .content-Grid {
   position: absolute;
   top: 0;
@@ -158,7 +161,7 @@ p{
   width: 32%;
   margin-left: 0.5%;
   margin-right: 0.5%;
-  border-radius: 0!important;
+  border-radius: 2px;
 }
 .cardRow{
   position: relative;
@@ -190,3 +193,40 @@ p{
   color: var(--font-warning);
   padding-left: 5px;
 }
+#modalDiv{
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--default-dark);
+  opacity: 0.7;
+}
+.modalMsg { 
+  z-index: 2;
+  grid-area: 5 / 9 / 15 / 23; 
+  background-color: var(--background);
+  border-radius: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.modalMsgDiv { 
+  grid-area: 6 / 12 / 12 / 20; 
+  z-index: 2;
+  text-align: center;
+  font-size: 16px;
+  padding-top: 20px;
+}
+.modalBtn { 
+  position: relative;
+  float: left;
+  top: 80%;
+  height: 10%;
+  width: 25%;
+  margin-left: 4%;
+  margin-right: 4%;
+  display: grid;
+  place-items: center;
+}
+.warning{ font-size: 22px;}

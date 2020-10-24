@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
   <link rel="icon" href="images/inclunav.png">
   <title>INCLUNAV</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans:300,400,500,600" />
@@ -19,9 +19,13 @@
   <div class="content-Grid">
     <div class="header brdr"></div>
     <div class="incluhead all-center">INCLUNAV</div>
-    <div class="logomain all-center"></div>
+    <div class="logomain">
+      <img src="images/inclunav.png" alt="" class="logoImg">
+    </div>
     <div class="logotextmain all-center">Annotation Tool</div>
-    <div class="warn">Sections with a * are mandatory</div>
+    <div class="warn">
+      <p>Password must contain 8 characters with atleast one capital letter and one number.</p>
+    </div>
     <div class="firstname brdr">First Name</div>
     <div class="lastname brdr">Last Name</div>
     <div class="email brdr">Email-ID</div>
@@ -32,8 +36,12 @@
     </div>
     <div class="pass brdr">Password</div>
     <div class="pass2 brdr">Confirm password</div>
-    <div class="signin brdr all-center">Sign-In instead</div>
-    <div class="signup brdr all-center">Sign Up</div>
+    <div class="signin brdr all-center btn">Sign-In instead</div>
+    <div class="signup brdr all-center btn">Sign Up</div>
+    <div class="req req1">*</div>
+    <div class="req req2">*</div>
+    <div class="req req3">*</div>
+    <div class="req req4">*</div>
   </div>
 </body>
 </html>

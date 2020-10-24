@@ -1,0 +1,39 @@
+.logomain { 
+  grid-area: 8 / 7 / 12 / 11;
+  padding: var(--main-padding);
+}
+.logoImg{
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  width: 90%;
+}
+.logotextmain { 
+  grid-area: 12 / 7 / 13 / 11;
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--font-brand);
+}
+
+.email { 
+  grid-area: 6 / 18 / 7 / 25; 
+  padding: var(--main-padding);
+}
+.pass { 
+  grid-area: 8 / 18 / 9 / 25; 
+  padding: var(--main-padding);
+}
+.signin { 
+  grid-area: 10 / 22 / 11 / 25; 
+}
+.passForget { 
+  grid-area: 10 / 18 / 11 / 22; 
+  padding: var(--main-padding);
+}
+.google { 
+  grid-area: 12 / 18 / 13 / 25; 
+}
+.signUp { 
+  grid-area: 14 / 18 / 15 / 25; 
+}

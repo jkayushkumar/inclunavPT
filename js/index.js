@@ -4,18 +4,15 @@ function navigateTo(url)
   location.replace(newLocation);
 }
 
-
-
-
- function funHelp(){
-    document.getElementById("help").classList.toggle("noDisplay");
-    document.getElementById("profile").classList.add("noDisplay");
-    }
+function funHelp(){
+  document.getElementById("helpDiv").classList.toggle("noDisplay");
+  document.getElementById("profileDiv").classList.add("noDisplay");
+}
   
 function funProfile(){
-      document.getElementById("help").classList.add("noDisplay");
-      document.getElementById("profile").classList.toggle("noDisplay");
-    }
+  document.getElementById("helpDiv").classList.add("noDisplay");
+  document.getElementById("profileDiv").classList.toggle("noDisplay");
+}
   
 
 

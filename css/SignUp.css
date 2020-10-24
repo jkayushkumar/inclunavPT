@@ -1,58 +1,47 @@
+.logomain { 
+  grid-area: 8 / 7 / 12 / 11;
+  content: url("../images/inclunav.png"); 
+  width: 100%;
+}
+.logotextmain { 
+  grid-area: 12 / 7 / 13 / 11;
+  font-size: 2.5vmin;
+  font-weight: 500;
+  color: var(--font-brand);
+}
+.warn { 
+  grid-area: 4 / 17 / 5 / 26; 
+  color: var( --font-warning);
+  padding: var(--main-padding);
+}
 .firstname { 
-  grid-area: 3 / 9 / 4 / 12; 
-  position: relative;
-  height: 50%;top: 50%;width: 100%;
-  border: 1px solid var(--font-dark);
-  display: grid;  place-items: center; 
+  grid-area: 6 / 17 / 7 / 21;
+  padding: var(--main-padding);
 }
 .lastname { 
-  grid-area: 3 / 13 / 4 / 16; 
-  position: relative;
-  height: 50%;top: 50%;width: 100%;
-  border: 1px solid var(--font-dark);
-  display: grid;  place-items: center; 
-}
-.org { 
-  grid-area: 4 / 9 / 5 / 12;
-  position: relative;
-  height: 50%;top: 50%;width: 100%;
-  border: 1px solid var(--font-dark);
-  display: grid;  place-items: center; 
+  grid-area: 6 / 22 / 7 / 26;
+  padding: var(--main-padding); 
 }
 .email { 
-  grid-area: 4 / 13 / 5 / 16;
-  position: relative;
-  height: 50%;top: 50%;width: 100%;
-  border: 1px solid var(--font-dark);
-  display: grid;  place-items: center; 
+  grid-area: 8 / 17 / 9 / 21; 
+  padding: var(--main-padding);
 }
-.pass { 
-  grid-area: 5 / 9 / 6 / 12; 
-  position: relative;
-  height: 50%;top: 50%;width: 100%;
-  border: 1px solid var(--font-dark);
-  display: grid;  place-items: center; 
+.org { 
+  grid-area: 8 / 22 / 9 / 26;
+  padding: var(--main-padding);
 }
-.cnfPass { 
-  grid-area: 5 / 13 / 6 / 16;
-  position: relative;
-  height: 50%;top: 50%;width: 100%;
-  border: 1px solid var(--font-dark);
-  display: grid;  place-items: center; 
- }
- .clear { 
-   grid-area: 6 / 9 / 7 / 12;
-   position: relative;
-  height: 50%;top: 50%;width: 100%;
-   text-align: left;
-  }
+.signin { grid-area: 14 / 17 / 15 / 21; }
+.signup { grid-area: 14 / 22 / 15 / 26; }
 
-.signUp { 
-  grid-area: 6 / 14 / 7 / 16; 
-  position: relative;
-  width: 100%;height: 50%;top: 50%;right: 0;
-  display: grid;place-items: center;
-  background-color: var(--color-offGray);
-  border-radius: var(--main-radius);
-  border: 1px solid var(--font-dark);
+.pass { 
+  grid-area: 10 / 17 / 11 / 21; 
+  padding: var(--main-padding);
+}
+.pass2 { 
+  grid-area: 10 / 22 / 11 / 26; 
+  padding: var(--main-padding);
+}
+.signUpMsg { 
+  grid-area: 11 / 17 / 14 / 26; 
+  padding: var(--main-padding);
 }

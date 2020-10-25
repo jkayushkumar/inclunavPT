@@ -4,6 +4,12 @@ function navigateTo(url)
   location.replace(newLocation);
 }
 
+function navigateUpTo(url)
+{
+  newLocation="../"+url;
+  location.replace(newLocation);
+}
+
 function funHelp(){
   document.getElementById("helpDiv").classList.toggle("noDisplay");
   document.getElementById("profileDiv").classList.add("noDisplay");

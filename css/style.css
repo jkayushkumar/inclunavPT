@@ -190,7 +190,7 @@ p{
   border: 1px solid black;
 }
 .req{
-  color: var(--font-warning);
+  /* color: var(--font-warning); */
   padding-left: 5px;
 }
 .modalDiv{

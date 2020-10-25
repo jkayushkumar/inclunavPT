@@ -93,7 +93,7 @@ p{
   margin-left: 100px;
   height: 100%; */
   grid-area: 1 / 2 / 2 / 4; 
-  color: var(--font-brand);
+  /* color: var(--font-brand); */
 }
 .incluheadlogo{
   position: absolute;

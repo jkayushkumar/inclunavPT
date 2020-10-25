@@ -1,0 +1,70 @@
+.logomain { 
+  grid-area: 8 / 7 / 12 / 11;
+  padding: var(--main-padding);
+}
+.logoImg{
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  width: 90%;
+}
+.logotextmain { 
+  grid-area: 12 / 7 / 13 / 11;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--font-brand);
+}
+.headerMid { 
+  grid-area: 1 / 13 / 2 / 15; 
+}
+.map { 
+  grid-area: 2 / 1 / 18 / 21; 
+  background-color: #eb9898c2;
+}
+
+.newElementName { 
+  grid-area: 5 / 22 / 6 / 29; 
+  padding: 10px;
+}
+.newElementAdd { 
+  grid-area: 7 / 22 / 8 / 29;
+  padding: 10px;
+ }
+.newElementType { 
+  grid-area: 9 / 22 / 10 / 29;
+  padding: 10px; 
+}
+.newElelementOrg { 
+  grid-area: 11 / 22 / 12 / 29;
+  padding: 10px; 
+}
+.newElReq1 { grid-area: 5 / 29 / 6 / 30; }
+.newElReq2 { grid-area: 7 / 29 / 8 / 30; }
+.newElMsg { 
+  grid-area: 12 / 22 / 13 / 29; 
+  padding: 10px;
+}
+.newElementSave { grid-area: 14 / 22 / 15 / 25; }
+.newElementCancel { grid-area: 14 / 26 / 15 / 29; }
+
+.newElNameHead { 
+  grid-area: 4 / 22 / 5 / 29; 
+  margin-left: 20px;
+  padding-top: 20px;
+}
+.newElAddHead { 
+  grid-area: 6 / 22 / 7 / 29;
+  margin-left: 20px;
+  padding-top: 20px;
+ }
+.newElTypeHead { 
+  grid-area: 8 / 22 / 9 / 29;
+  margin-left: 20px;
+  padding-top: 20px; 
+}
+.newElOrgHead { 
+  grid-area: 10 / 22 / 11 / 29;
+  margin-left: 20px;
+  padding-top: 20px; 
+}

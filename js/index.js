@@ -79,10 +79,8 @@ function hideProfile(){
 }
 
 window.onclick = function (event) {
-  if (event.target == document.getElementById("helpDiv") || event.target == document.getElementById("profileDiv")
-    || event.target == document.getElementById("warnModalDiv")) {
+  if (event.target == document.getElementById("helpDiv") || event.target == document.getElementById("profileDiv")) {
     document.getElementById("helpDiv").classList.add("noDisplay");
     document.getElementById("profileDiv").classList.add("noDisplay");
-    hideModal();
   }
 }

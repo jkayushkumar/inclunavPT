@@ -67,6 +67,8 @@ p{
   box-shadow: 2px 2px 2px var(--shadow-dark) inset, -2px -2px 2px var(--shadow-light) inset;
   background-color: var(--font-light);
   border-radius: var(--main-radius);
+  display: flex;
+  align-items: center;
 }
 .noDisplay{
   display: none!important;

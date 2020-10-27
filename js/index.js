@@ -1,8 +1,8 @@
 $(function() {
-  var offsetWidth = document.getElementById('parentDiv').offsetWidth;
-  var offsetHeight = document.getElementById('parentDiv').offsetHeight;
-  console.log(offsetWidth);
-  console.log(offsetHeight);
+  // var offsetWidth = document.getElementById('parentDiv').offsetWidth;
+  // var offsetHeight = document.getElementById('parentDiv').offsetHeight;
+  // console.log(offsetWidth);
+  // console.log(offsetHeight);
   // document.getElementById("contentDiv").style.width=offsetWidth;
   // document.getElementById("contentDiv").style.height=0.56*offsetWidth; 
 });
@@ -13,6 +13,12 @@ function navigateTo(url)
 }
 
 function navigateUpTo(url)
+{
+  newLocation="../"+url;
+  location.replace(newLocation);
+}
+
+function navigateToDiff(url)
 {
   newLocation="../"+url;
   location.replace(newLocation);

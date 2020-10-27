@@ -5,10 +5,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
   <link rel="icon" href="../images/inclunav.png">
-  <title>INCLUNAV : ADD VENUE</title>
+  <title>INCLUNAV : ADD BUILDING</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans:300,400,500,600" />
   <link rel="stylesheet" href="../css/style.css">
-  <link rel="stylesheet" href="../css/venue/AddEdit.css">
+  <link rel="stylesheet" href="../css/building/AddEdit.css">
   <script type="text/javascript" src="../js/package/jquery-3.5.1.js"></script>
   <script type="text/javascript" src="../js/package/scroll-out.min.js"></script>
   <script type="text/javascript" src="../js/index.js"></script>
@@ -22,7 +22,8 @@
     <div class="header">
       <!-- <img class="incluheadlogo" src="../images/inclunav.png"/>       -->
     </div>
-    <div class="incluhead all-center">DASHBOARD</div>
+    <div class="incluhead all-center">DASHBOARD |</div>
+    <div class="venueHead all-center">Venue Name 1</div>
     <div class="help all-center" onclick="funHelp()">Help</div>
     <div class="profile all-center" onclick="funProfile()">First Name</div>
     <div id="profileDiv" class="profileCard all-center noDisplay">
@@ -35,7 +36,7 @@
       <div class="helpcardDiv">Contact Us</div>
       <div class="helpcardDiv">Feedback Form</div>
     </div>
-    <div class="headerMid all-center">New Venue</div>
+    <div class="headerMid all-center">New Building</div>
     <div class="map all-center">Open Street Map</div>
     <div class="newElementName txt"></div>
     <div class="newElementAdd txt"></div>
@@ -44,13 +45,14 @@
     <div class="newElMsg">
       <p>Sections with a * are mandatory</p>
     </div>
-    <div class="newElementSave btn all-center" onclick="navigateTo('Dashboard.html')">Save</div>
+    <div class="newElementSave btn all-center" onclick="navigateToDiff('building/Dashboard.html')">Save</div>
     <div class="newElementCancel btn all-center" onclick="navigateTo('Dashboard.html')">Cancel</div>
     <div class="newElReq1 req">*</div>
     <div class="newElReq2 req">*</div>
-    <div class="newElNameHead">Venue Name</div>
-    <div class="newElAddHead">Venue Address</div>
-    <div class="newElTypeHead">Venue Type</div>
+    <div class="newElReq3 req">*</div>
+    <div class="newElNameHead">Building Name</div>
+    <div class="newElAddHead">Building Orientation</div>
+    <div class="newElTypeHead">Building Address</div>
     <div class="newElOrgHead">Organization</div>
     <!-- ---profileDiv--- -->
     <div id="profileModalDiv" class="modalDiv noDisplay"></div>

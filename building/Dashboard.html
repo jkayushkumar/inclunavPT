@@ -5,10 +5,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
   <link rel="icon" href="../images/inclunav.png">
-  <title>INCLUNAV : VENUE DASHBOARD</title>
+  <title>INCLUNAV : BUILDING DASHBOARD</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans:300,400,500,600" />
   <link rel="stylesheet" href="../css/style.css">
-  <link rel="stylesheet" href="../css/venue/Dashboard.css">
+  <link rel="stylesheet" href="../css/building/Dashboard.css">
   <script type="text/javascript" src="../js/package/jquery-3.5.1.js"></script>
   <script type="text/javascript" src="../js/package/scroll-out.min.js"></script>
   <script type="text/javascript" src="../js/index.js"></script>
@@ -18,117 +18,121 @@
 </head>
 
 <body>
-  <div class="content-Grid">
-    <div class="header">
-      <!-- <img class="incluheadlogo" src="../images/inclunav.png"/>       -->
-    </div>
-    <div class="incluhead all-center">DASHBOARD</div>
-    <div class="help all-center" onclick="funHelp()">Help</div>
-    <div class="profile all-center" onclick="funProfile()">First Name</div>
-    <div id="profileDiv" class="profileCard all-center noDisplay">
-      <div class="helpcardDiv" onclick="showProfile()">Edit Profile</div>
-      <div class="helpcardDiv" onclick="navigateUpTo('SignIn.html')">Logout</div>
-    </div>
-    <div id="helpDiv" class="helpCard all-center noDisplay">
-      <div class="helpcardDiv">Tutorials</div>
-      <div class="helpcardDiv">Manual</div>
-      <div class="helpcardDiv">Contact Us</div>
-      <div class="helpcardDiv">Feedback Form</div>
-    </div>
-    <div class="addNew btn all-center" onclick="navigateTo('AddNew.html')">Add New Venue</div>
-    <div class="card card1">
-      <div class="cardRow">
-        <div class="cardRowLeft">
-          Venue Name 1<br />
-          Buildings : X
-        </div>
-        <div class="cardRowRight brdr"></div>
+  <div id="parentDiv" class="conetnt-main all-center">
+    <div id="contentDiv" class="content-Grid">
+      <div class="header">
+        <!-- <img class="incluheadlogo" src="../images/inclunav.png"/>  -->
       </div>
-      <div class="cardBtn btn all-center" onclick="navigateTo('Edit.html')">Edit</div>
-      <div class="cardBtn btn all-center">Validate</div>
-      <div class="cardBtn btn all-center" onclick="showModal()">Delete</div>
-    </div>
+      <div class="incluhead all-center">DASHBOARD |</div>
+      <div class="venueHead all-center">Venue Name 1</div>
+      <div class="help all-center" onclick="funHelp()">Help</div>
+      <div class="profile all-center" onclick="funProfile()">First Name</div>
+      <div id="profileDiv" class="profileCard all-center noDisplay">
+        <div class="helpcardDiv" onclick="showProfile()">Edit Profile</div>
+        <div class="helpcardDiv" onclick="navigateUpTo('SignIn.html')">Logout</div>
+      </div>
+      <div id="helpDiv" class="helpCard all-center noDisplay">
+        <div class="helpcardDiv">Tutorials</div>
+        <div class="helpcardDiv">Manual</div>
+        <div class="helpcardDiv">Contact Us</div>
+        <div class="helpcardDiv">Feedback Form</div>
+      </div>
+      <div class="addNew btn all-center" onclick="navigateTo('AddNew.html')">Add New Building</div>
+      <div class="card card1">
+        <div class="cardRow">
+          <div class="cardRowLeft">
+            Building Name 1<br />
+            Floors : X
+          </div>
+          <div class="cardRowRight brdr"></div>
+        </div>
+        <div class="cardBtn btn all-center" onclick="navigateTo('Edit.html')">Edit</div>
+        <div class="cardBtn btn all-center">Validate</div>
+        <div class="cardBtn btn all-center" onclick="showModal()">Delete</div>
+      </div>
 
-    <div class="card card2">
-      <div class="cardRow">
-        <div class="cardRowLeft">
-          Venue Name 2<br />
-          Buildings : X
+      <div class="card card2">
+        <div class="cardRow">
+          <div class="cardRowLeft">
+            Building Name 2<br />
+            Floors : X
+          </div>
+          <div class="cardRowRight brdr"></div>
         </div>
-        <div class="cardRowRight brdr"></div>
+        <div class="cardBtn btn all-center">Edit</div>
+        <div class="cardBtn btn all-center">Validate</div>
+        <div class="cardBtn btn all-center">Delete</div>
       </div>
-      <div class="cardBtn btn all-center">Edit</div>
-      <div class="cardBtn btn all-center">Validate</div>
-      <div class="cardBtn btn all-center">Delete</div>
-    </div>
 
-    <div class="card card3">
-      <div class="cardRow">
-        <div class="cardRowLeft">
-          Venue Name 3<br />
-          Buildings : X
+      <div class="card card3">
+        <div class="cardRow">
+          <div class="cardRowLeft">
+            Building Name 3<br />
+            Floors : X
+          </div>
+          <div class="cardRowRight brdr"></div>
         </div>
-        <div class="cardRowRight brdr"></div>
+        <div class="cardBtn btn all-center">Edit</div>
+        <div class="cardBtn btn all-center">Validate</div>
+        <div class="cardBtn btn all-center">Delete</div>
       </div>
-      <div class="cardBtn btn all-center">Edit</div>
-      <div class="cardBtn btn all-center">Validate</div>
-      <div class="cardBtn btn all-center">Delete</div>
-    </div>
 
-    <div class="card card4">
-      <div class="cardRow">
-        <div class="cardRowLeft">
-          Venue Name 4<br />
-          Buildings : X
+      <div class="card card4">
+        <div class="cardRow">
+          <div class="cardRowLeft">
+            Building Name 4<br />
+            Floors : X
+          </div>
+          <div class="cardRowRight brdr"></div>
         </div>
-        <div class="cardRowRight brdr"></div>
+        <div class="cardBtn btn all-center">Edit</div>
+        <div class="cardBtn btn all-center">Validate</div>
+        <div class="cardBtn btn all-center">Delete</div>
       </div>
-      <div class="cardBtn btn all-center">Edit</div>
-      <div class="cardBtn btn all-center">Validate</div>
-      <div class="cardBtn btn all-center">Delete</div>
+      <div id="warnModalDiv" class="modalDiv noDisplay"></div>
+      <div id="modalBtnDiv" class="modalMsg noDisplay">
+        <div class="modalBtn btn" onclick="hideModal()">Cancel</div>
+        <div class="modalBtn txt">*********</div>
+        <div class="modalBtn btn" onclick="hideModal()">Delete</div>
+      </div>
+      <div id="modalWarnDiv" class="modalMsgDiv noDisplay">
+        <span class="warning">WARNING!</span>
+        <p class="centerPara">You are about to delete the building : Building Name 1</p>
+        <p class="centerPara">This will remove all levels in this building. This is a non-reversible
+          action.
+        </p>
+        <p class="centerPara">If you do not want to delete this building, click CANCEL. If you still want to delete this
+          building, enter your password and click DELETE.</p>
+      </div>
+      <!-- ---profileDiv--- -->
+      <div id="profileModalDiv" class="modalDiv noDisplay"></div>
+      <div id="userProfileMain" class="noDisplay"></div>
+      <div id="profileHead" class="noDisplay">USER PROFILE</div>
+      <div id="profileWarn" class="noDisplay">Password must contain 8 characters with atleast one capital letter and one
+        number.</div>
+      <div id="profileFirst" class="txt noDisplay"></div>
+      <div id="profileLast" class="txt noDisplay"></div>
+      <div id="profileMail" class="txt noDisplay"></div>
+      <div id="profileOrg" class="txt noDisplay"></div>
+      <div id="profilePass" class="txt noDisplay"></div>
+      <div id="profilePass2" class="txt noDisplay"></div>
+      <div id="profileMsgDiv" class="noDisplay">
+        <p>Sections with a * are mandatory.</p>
+        <p>Passwords must be atleast 8 characters long and contain atleast 1 capital letter, and 1 number.</p>
+      </div>
+      <div id="profileSave" class="btn noDisplay" onclick="hideProfile()">Save</div>
+      <div id="profileCancel" class="btn noDisplay" onclick="hideProfile()">Cancel</div>
+      <div id="nameOneHead" class="noDisplay">First Name</div>
+      <div id="nameLastHead" class="noDisplay">Last Name</div>
+      <div id="mailProf" class="noDisplay">E-mail ID</div>
+      <div id="orgProf" class="noDisplay">Organization</div>
+      <div id="passOneProf" class="noDisplay">Password</div>
+      <div id="passTwoProf" class="noDisplay">Confirm Password</div>
+      <div id="req20" class="req noDisplay">*</div>
+      <div id="req21" class="req noDisplay">*</div>
+      <div id="req22" class="req noDisplay">*</div>
+      <div id="req23" class="req noDisplay">*</div>
     </div>
-    <div id="warnModalDiv" class="modalDiv noDisplay"></div>
-    <div id="modalBtnDiv" class="modalMsg noDisplay">
-      <div class="modalBtn btn" onclick="hideModal()">Cancel</div>
-      <div class="modalBtn txt">*********</div>
-      <div class="modalBtn btn" onclick="hideModal()">Delete</div>
-    </div>
-    <div id="modalWarnDiv" class="modalMsgDiv noDisplay">
-      <span class="warning">WARNING!</span>
-      <p class="centerPara">You are about to delete the venue : Venue Name 1</p>
-      <p class="centerPara">This will remove all buildings and levels under this venue. This is a non-reversible action.
-      </p>
-      <p class="centerPara">If you do not want to delete this venue, click CANCEL. If you still want to delete this
-        venue, enter your password and click DELETE.</p>
-    </div>
-    <!-- ---profileDiv--- -->
-    <div id="profileModalDiv" class="modalDiv noDisplay"></div>
-    <div id="userProfileMain" class="noDisplay"></div>
-    <div id="profileHead" class="noDisplay">USER PROFILE</div>
-    <div id="profileWarn" class="noDisplay">Password must contain 8 characters with atleast one capital letter and one
-      number.</div>
-    <div id="profileFirst" class="txt noDisplay"></div>
-    <div id="profileLast" class="txt noDisplay"></div>
-    <div id="profileMail" class="txt noDisplay"></div>
-    <div id="profileOrg" class="txt noDisplay"></div>
-    <div id="profilePass" class="txt noDisplay"></div>
-    <div id="profilePass2" class="txt noDisplay"></div>
-    <div id="profileMsgDiv" class="noDisplay">
-      <p>Sections with a * are mandatory.</p>
-      <p>Passwords must be atleast 8 characters long and contain atleast 1 capital letter, and 1 number.</p>
-    </div>
-    <div id="profileSave" class="btn noDisplay" onclick="hideProfile()">Save</div>
-    <div id="profileCancel" class="btn noDisplay" onclick="hideProfile()">Cancel</div>
-    <div id="nameOneHead" class="noDisplay">First Name</div>
-    <div id="nameLastHead" class="noDisplay">Last Name</div>
-    <div id="mailProf" class="noDisplay">E-mail ID</div>
-    <div id="orgProf" class="noDisplay">Organization</div>
-    <div id="passOneProf" class="noDisplay">Password</div>
-    <div id="passTwoProf" class="noDisplay">Confirm Password</div>
-    <div id="req20" class="req noDisplay">*</div>
-    <div id="req21" class="req noDisplay">*</div>
-    <div id="req22" class="req noDisplay">*</div>
-    <div id="req23" class="req noDisplay">*</div>
   </div>
 </body>
 

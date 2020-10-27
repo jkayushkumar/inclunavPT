@@ -15,6 +15,7 @@
   font-weight: 600;
   color: var(--font-brand);
 }
+.venueHead { grid-area: 1 / 4 / 2 / 6; }
 .card1 { grid-area: 3 / 7 / 9 / 13; }
 .card2 { grid-area: 3 / 15 / 9 / 21; }
 .card3 { grid-area: 3 / 23 / 9 / 29; }

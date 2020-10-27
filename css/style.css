@@ -45,11 +45,11 @@ p{
 }
 .content-Grid {
   position: absolute;
-  top: 0;
-  height: 56vmax;
-  width: 100vmax;  
-  /* min-height: 700px;
-  min-width: 1279px; */
+  top: 0;  
+  height: 100vmin;
+  width: 178vmin;
+  min-height: 650px;
+  min-width: 1279px;
   display: grid;  
   grid-template-columns: repeat(30, 1fr);
   grid-template-rows: repeat(17, 1fr);

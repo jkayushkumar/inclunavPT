@@ -20,12 +20,56 @@
   grid-area: 1 / 13 / 2 / 15; 
 }
 .map { 
-  grid-area: 2 / 1 / 18 / 21; 
+  grid-area: 5 / 6 / 15 / 19; 
   background-color: #eb9898c2;
 }
 
-.newElementName { 
-  grid-area: 5 / 22 / 6 / 29; 
+.rotate { grid-area: 3 / 6 / 4 / 9; }
+.crop { grid-area: 3 / 11 / 4 / 14; }
+.undo { grid-area: 3 / 16 / 4 / 19; }
+.widthRow{ grid-area: 16 / 6 / 17 / 19;}
+.width { grid-area: 16 / 11 / 17 / 14; }
+.bArrowLeft { 
+  grid-area: 16 / 6 / 17 / 11;
+  background-image: url("../../images/arrowL.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80% 15%;
+  opacity: 0.4;
+}
+.bArrowRight { 
+  grid-area: 16 / 14 / 17 / 19;   
+  background-image: url("../../images/arrowR.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80% 15%;
+  opacity: 0.4;
+}
+.height { grid-area: 9 / 2 / 10 / 5; }
+.lArrowTop { 
+  grid-area: 5 / 3 / 9 / 4;
+  background-image: url("../../images/arrowT.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 15% 80%;
+  opacity: 0.4;
+ }
+.lArrowBottom { 
+  grid-area: 10 / 3 / 15 / 4; 
+  background-image: url("../../images/arrowB.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 15% 80%;
+  opacity: 0.4;
+}
+.floorBrowse { 
+  grid-area: 5 / 22 / 6 / 25; 
+  padding: 10px;
+}
+.rotateLeft{transform: rotate(-90deg);}
+
+.floorUpload { 
+  grid-area: 5 / 26 / 6 / 29; 
   padding: 10px;
 }
 .newElementAdd { 

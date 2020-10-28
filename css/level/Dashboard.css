@@ -20,7 +20,6 @@
 .card2 { grid-area: 3 / 15 / 9 / 21; }
 .card3 { grid-area: 3 / 23 / 9 / 29; }
 .card4 { grid-area: 11 / 7 / 17 / 13; }
-.incluhead{cursor: pointer;}
 
 .fCardRow{
   position: relative;

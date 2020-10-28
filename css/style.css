@@ -346,7 +346,7 @@ p{
 
 @media only screen and (max-width: 1024px){
   body{
-    font-size: 12px;
+    font-size: 14px;
   }
   .content-Grid {
     display: grid;

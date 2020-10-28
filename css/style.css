@@ -91,21 +91,14 @@ p{
   text-align: center;
 }
 .header { 
-  /* position: absolute;
-  height: 40px;
-  top: 0;
-  width: 100%; */
   grid-area: 1 / 1 / 2 / 31;
   box-shadow: 0 3px 3px var(--shadow-dark), 0 -5px 5px var(--shadow-light);
 }
 .incluhead { 
-  /* z-index: 1;
-  position: relative;
-  float: left;
-  margin-left: 100px;
-  height: 100%; */
-  grid-area: 1 / 2 / 2 / 4; 
-  /* color: var(--font-brand); */
+  grid-area: 1 / 2 / 2 / 15; 
+  display: flex;
+  text-align: left;
+  align-items: center;
 }
 .incluheadlogo{
   position: absolute;

@@ -5,10 +5,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
   <link rel="icon" href="../images/inclunav.png">
-  <title>INCLUNAV : BUILDING DASHBOARD</title>
+  <title>INCLUNAV : LEVEL DASHBOARD</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans:300,400,500,600" />
   <link rel="stylesheet" href="../css/style.css">
-  <link rel="stylesheet" href="../css/building/Dashboard.css">
+  <link rel="stylesheet" href="../css/level/Dashboard.css">
   <script type="text/javascript" src="../js/package/jquery-3.5.1.js"></script>
   <script type="text/javascript" src="../js/package/scroll-out.min.js"></script>
   <script type="text/javascript" src="../js/index.js"></script>
@@ -23,7 +23,8 @@
       <div class="header">
         <!-- <img class="incluheadlogo" src="../images/inclunav.png"/>  -->
       </div>
-      <div class="incluhead"  onclick="navigateToDiff('venue/Dashboard.html')">DASHBOARD | Venue Name 1</div>
+      <div class="incluhead" onclick="navigateToDiff('venue/Dashboard.html')">DASHBOARD | Venue Name 1 | Building Name 1
+      </div>
       <!-- <div class="venueHead all-center"> | Venue Name 1</div> -->
       <div class="help all-center" onclick="funHelp()">Help</div>
       <div class="profile all-center" onclick="funProfile()">First Name</div>
@@ -37,22 +38,21 @@
         <div class="helpcardDiv">Contact Us</div>
         <div class="helpcardDiv">Feedback Form</div>
       </div>
-      <div class="addNew btn all-center" onclick="navigateTo('AddNew.html')">Add New Building</div>
+      <div class="addNew btn all-center" onclick="navigateToDiff('level/AddNew.html')">&nbsp;Add New Floor</div>
       <div class="card card1">
-        <div class="cardRow">
+        <div class="fThumb brdr all-center">Floor Thumbnail</div>
+        <div class="fCardRow">
           <div class="cardRowLeft">
-            Building Name 1<br />
-            Floors : X
+            Floor Name 1
           </div>
-          <div class="cardRowRight brdr"></div>
+          <div class="fCardRowRight brdr"></div>
         </div>
-        <div class="cardBtn btn all-center" onclick="navigateTo('Edit.html')">Edit</div>
-        <div class="cardBtn btn all-center">Validate</div>
-        <div class="cardBtn btn all-center" onclick="showModal()">Delete</div>
+        <div class="fCardBtnRow">
+          <div class="fCardBtn1 btn all-center" onclick="navigateTo('level/Edit.html')">Edit</div>
+          <div class="fCardBtn2 btn all-center">Validate</div>
+          <div class="fCardBtn3 btn all-center" onclick="showModal()">Delete</div>
+        </div>
       </div>
-
-      
-      
       <div id="warnModalDiv" class="modalDiv noDisplay"></div>
       <div id="modalBtnDiv" class="modalMsg noDisplay">
         <div class="modalBtn btn" onclick="hideModal()">Cancel</div>
@@ -61,12 +61,12 @@
       </div>
       <div id="modalWarnDiv" class="modalMsgDiv noDisplay">
         <span class="warning">WARNING!</span>
-        <p class="centerPara">You are about to delete the building : Building Name 1</p>
-        <p class="centerPara">This will remove all levels in this building. This is a non-reversible
+        <p class="centerPara">You are about to delete the Floor : Floor Name 1</p>
+        <p class="centerPara">This will remove all annotations on this floor. This is a non-reversible
           action.
         </p>
-        <p class="centerPara">If you do not want to delete this building, click CANCEL. If you still want to delete this
-          building, enter your password and click DELETE.</p>
+        <p class="centerPara">If you do not want to delete this floor, click CANCEL. If you still want to delete this
+          floor, enter your password and click DELETE.</p>
       </div>
       <!-- ---profileDiv--- -->
       <div id="profileModalDiv" class="modalDiv noDisplay"></div>

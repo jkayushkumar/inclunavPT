@@ -348,6 +348,11 @@ p{
   body{
     font-size: 14px;
   }
+  .header{grid-area: 1 / 1 / 2 / 13;}
+  .incluhead{
+    grid-area: 1 / 1 / 2 / 6;
+    padding-left: 10px;
+  }
   .content-Grid {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -358,4 +363,30 @@ p{
     width: 100%;
     height: 134vw;
   }  
+  .profileCard{grid-area: 2 / 10 / 4 / 13;}
+  .helpCard{grid-area: 2 / 9 / 6 / 12;}
+  .modalMsg{grid-area: 4 / 2 / 14 / 12;}
+  .modalMsgDiv{grid-area: 6 / 4 / 12 / 10;}
+  #userProfileMain{grid-area: 4 / 2 / 16 / 12;}
+  #profileHead{grid-area: 5 / 4 / 6 / 10;}
+  #profileFirst{grid-area: 7 / 3 / 8 / 6;}
+  #profileLast{grid-area: 7 / 8 / 8 / 11;}
+  #profileMail{grid-area: 9 / 3 / 10 / 6;}
+  #profileOrg{grid-area: 9 / 8 / 10 / 11;}
+  #profilePass{grid-area: 11 / 3 / 12 / 6;}
+  #profilePass2{grid-area: 11 / 8 / 12 / 11;}
+  #profileMsgDiv{grid-area: 12 / 3 / 14 / 11;}
+  #profileSave{grid-area: 14 / 3 / 15 / 6;}
+  #profileCancel{grid-area: 14 / 8 / 15 / 11;}
+  #nameOneHead{grid-area: 6 / 3 / 7 / 6;}
+  #nameLastHead{grid-area: 6 / 8 / 7 / 11;}
+  #mailProf{grid-area: 8 / 3 / 9 / 6;}
+  #orgProf{grid-area: 8 / 8 / 9 / 11;}
+  #passOneProf{grid-area: 10 / 3 / 11 / 6;}
+  #passTwoProf{grid-area: 10 / 8 / 11 / 11;}
+  #req20{grid-area: 7 / 6 / 8 / 7;}
+  #req21{grid-area: 9 / 6 / 10 / 7;}
+  #req22{grid-area: 11 / 6 / 12 / 7;}
+  #req23{grid-area: 11 / 11 / 12 / 12;}
+  
 }

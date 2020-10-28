@@ -19,3 +19,12 @@
 .card2 { grid-area: 3 / 15 / 9 / 21; }
 .card3 { grid-area: 3 / 23 / 9 / 29; }
 .card4 { grid-area: 11 / 7 / 17 / 13; }
+@media only screen and (max-width: 1024px){
+  .help{grid-area: 1 / 11 / 2 / 12;}
+  .profile{grid-area: 1 / 12 / 2 / 13;}
+  .addNew{grid-area: 3 / 6 / 5 / 8;}
+  .card1{grid-area: 6 / 2 / 10 / 6;}
+  .card2{grid-area: 6 / 8 / 10 / 12;}
+  .card3{grid-area: 12 / 2 / 16 / 6;}
+  .card4{grid-area: 12 / 8 / 16 / 12;}
+}

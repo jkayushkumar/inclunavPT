@@ -50,7 +50,7 @@ function showProfile(){
   document.getElementById("profileModalDiv").classList.remove("noDisplay");
   document.getElementById("userProfileMain").classList.remove("noDisplay");
   document.getElementById("profileHead").classList.remove("noDisplay");
-  document.getElementById("profileWarn").classList.remove("noDisplay");
+  // document.getElementById("profileWarn").classList.remove("noDisplay");
   document.getElementById("profileFirst").classList.remove("noDisplay");
   document.getElementById("profileLast").classList.remove("noDisplay");
   document.getElementById("profileMail").classList.remove("noDisplay");
@@ -76,7 +76,7 @@ function hideProfile(){
   document.getElementById("profileModalDiv").classList.add("noDisplay");
   document.getElementById("userProfileMain").classList.add("noDisplay");
   document.getElementById("profileHead").classList.add("noDisplay");
-  document.getElementById("profileWarn").classList.add("noDisplay");
+  // document.getElementById("profileWarn").classList.add("noDisplay");
   document.getElementById("profileFirst").classList.add("noDisplay");
   document.getElementById("profileLast").classList.add("noDisplay");
   document.getElementById("profileMail").classList.add("noDisplay");

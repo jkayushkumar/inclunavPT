@@ -1,11 +1,5 @@
 .logomain { 
   grid-area: 8 / 7 / 12 / 11;
-  /* position: absolute;
-  left: 64px;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: aqua; 
-  height: 100px;*/
   padding: var(--main-padding); 
 }
 .logoImg{
@@ -41,4 +35,37 @@
 }
 .signUp { 
   grid-area: 14 / 18 / 15 / 25; 
+}
+@media only screen and (max-width: 1024px){
+  .logotextmain{
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .logoImg{
+    width: 100%;
+  }
+  .logomain{
+    grid-area: 3 / 6 / 5 / 8 !important;
+  }
+  .logotextmain{
+    grid-area: 5 / 5 / 6 / 9 !important;
+  }
+  .email{
+    grid-area: 7 / 3 / 8 / 11 !important;
+  }
+  .pass{
+    grid-area: 9 / 3 / 10 / 11 !important;
+  }
+  .signin{
+    grid-area: 11 / 8 / 12 / 11 !important;
+  }
+  .passForget{
+    grid-area: 11 / 3 / 12 / 7 !important;
+  }
+  .google{
+    grid-area: 13 / 3 / 14 / 11 !important;
+  }
+  .signUp{
+    grid-area: 14 / 3 / 16 / 11 !important;
+  }
 }

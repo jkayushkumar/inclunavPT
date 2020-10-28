@@ -58,3 +58,50 @@
 .req2 { grid-area: 8 / 21 / 9 / 22; }
 .req3 { grid-area: 10 / 21 / 11 / 22; }
 .req4 { grid-area: 10 / 26 / 11 / 27; }
+@media only screen and (max-width: 1024px){
+  .logotextmain{
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .logoImg{
+    width: 100%;
+  }
+  .logomain{
+    grid-area: 3 / 6 / 5 / 8 !important;
+  }
+  .logotextmain{
+    grid-area: 5 / 5 / 6 / 9 !important;
+  }
+  .firstname{
+    grid-area: 7 / 3 / 8 / 6;
+  }
+  .lastname{
+    grid-area: 7 / 8 / 8 / 11;
+  }
+  .email{
+    grid-area: 9 / 3 / 10 / 6;
+  }
+  .org{
+    grid-area: 9 / 8 / 10 / 11;
+  }
+  .pass{
+    grid-area: 11 / 3 / 12 / 6;
+  }
+  .pass2{
+    grid-area: 11 / 8 / 12 / 11;
+  }
+  .signUpMsg{
+    grid-area: 12 / 3 / 15 / 11;
+    padding-top: 20px;
+  }
+  .signin{
+    grid-area: 15 / 3 / 16 / 6;
+  }
+  .signup{
+    grid-area: 15 / 8 / 16 / 11;
+  }
+  .req1{grid-area: 7 / 6 / 8 / 7;}
+  .req2{grid-area: 9 / 6 / 10 / 7;}
+  .req3{grid-area: 11 / 6 / 12 / 7;}
+  .req4{grid-area: 11 / 11 / 12 / 12;}
+}

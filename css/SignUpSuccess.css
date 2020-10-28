@@ -26,3 +26,24 @@
 #signBack{
   width: 80%;height: 100%;
 }
+@media only screen and (max-width: 1024px){
+  .logotextmain{
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .logoImg{
+    width: 100%;
+  }
+  .logomain{
+    grid-area: 3 / 6 / 5 / 8 !important;
+  }
+  .logotextmain{
+    grid-area: 5 / 5 / 6 / 9 !important;
+  }
+  .successMsg{
+    grid-area: 7 / 4 / 12 / 10;
+  }
+  .signinBack{
+    grid-area: 13 / 5 / 14 / 9;
+  }
+}

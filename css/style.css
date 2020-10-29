@@ -47,14 +47,16 @@ p{
 .content-Grid {
   position: absolute;
   top: 0;
-  height: 57vw;
+  left: 50%;
+  transform: translateX(-50%);
+  /* height: 57vw;
   width: 100%;
   min-height: 650px;
-  min-width: 1160px;
+  min-width: 1160px; */
   /* min-width: 1279px; */
   display: grid;  
-  grid-template-columns: repeat(30, 1fr);
-  grid-template-rows: repeat(17, 1fr);
+  grid-template-columns: repeat(30, .53in);
+  grid-template-rows: repeat(17, .53in);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 }
@@ -354,14 +356,15 @@ p{
     padding-left: 10px;
   }
   .content-Grid {
+    
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(16, 1fr);
+    grid-template-columns: repeat(12, .53in);
+    grid-template-rows: repeat(16, .53in);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    min-width: 360px;
+    /* min-width: 360px;
     width: 100%;
-    height: 134vw;
+    height: 134vw; */
   }  
   .profileCard{grid-area: 2 / 10 / 4 / 13;}
   .helpCard{grid-area: 2 / 9 / 6 / 12;}
